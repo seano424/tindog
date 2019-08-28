@@ -1,0 +1,172 @@
+body {
+  text-align: center;
+}
+
+.title {
+  background-color: #ff4c69;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat light", sans-serif;
+  font-size: 1.4rem;
+}
+
+
+/* Navbar and Title */
+.container-fluid {
+  padding: 3% 15% 11%;
+}
+
+/* Title Buttons */
+.title-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  transform: rotate(25deg);
+  width: 5%;
+  position: absolute;
+  left: 45%;
+  top: 12%;
+}
+
+/* Features */
+.features {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-text {
+  margin-bottom: 40px;
+}
+
+.feature-i {
+  font-size: 4em;
+  color: #f590a0;
+}
+
+.feature-i:hover {
+  color: #ff4c69;
+}
+
+.carousel {
+  padding: 7% 15%;
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 20px;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 15px;
+}
+
+.card-row {
+  padding-top: 2%;
+}
+
+.cta-btn {
+  margin: 30px 5px;
+  font-size: .4em;
+}
+
+
+.fa-footer {
+  padding: 30px 10px 0;
+  font-size: 1.5em;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin: 0 70px 0;
+  }
+}
+
+.features h3 {
+  margin: 15px;
+  font-family: 'Montserrat black', sans-serif;
+  font-size: 1.7em;
+}
+
+.features p {
+  font-family: "Montserrat light", sans-serif;
+  font-size: 1.3em;
+}
+
+
+/* Header */
+h1, h2, h3, h4 , h5 {
+  font-family: 'Montserrat black', sans-serif;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: 3.5rem;
+  color: white;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+p {
+  font-family: "Montserrat light", sans-serif;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #f590a0;
+  color: white;
+  font-family: "Montserrat black", sans-serif;
+}
+
+
+/* Press */
+#press {
+  background-color: #f590a0;
+  padding-bottom: 3%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 6% 10%;
+}
+
+
+/* Footer Area */
+#cta {
+  background-color: #ff4c69;
+  color: white;
+  padding: 6% 10%;
+  font-size: 3.5em;
+}
+#footer {
+}
